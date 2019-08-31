@@ -1,1 +1,5 @@
 /* If I want to add a background image */
+
+body {
+  background-image: url("./assets/images/spongebobfaces.jpg");
+}
