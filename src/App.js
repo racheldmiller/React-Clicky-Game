@@ -30,6 +30,7 @@ import Wrapper from "./components/Wrapper/index";
 //   );
 // }
 
+// NEED TO DOUBLE CHECK
 class App extends Component {
   state = {
     clickedCards: {},
@@ -129,5 +130,6 @@ class App extends Component {
     );
   }
 }
+// NEED TO DOUBLE CHECK
 
 export default App;

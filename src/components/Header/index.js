@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-// FROM BRYAN
+// NEED TO DOUBLE CHECK
 const Header = props => (
   <div className="jumbotron">
     <h1 className="display-4">Spongebob Memory Game</h1>
@@ -12,6 +12,6 @@ const Header = props => (
     <hr className="my-4" />
   </div>
 );
-// FROM BRYAN
+// NEED TO DOUBLE CHECK
 
 export default Header;

@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-// FROM BRYAN
+// NEED TO DOUBLE CHECK
 const Card = props => (
   <div className="col-12 col-sm-6 col-lg-3">
     <div className="card shadow">
@@ -14,6 +14,6 @@ const Card = props => (
     </div>
   </div>
 );
-// FROM BRYAN
+// NEED TO DOUBLE CHECK
 
 export default Card;

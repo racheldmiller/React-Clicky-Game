@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-// FROM BRYAN
+// NEED TO DOUBLE CHECK
 const Nav = props => (
   <nav className="navbar fixed-top navbar-dark bg-dark shadow">
     <div className="container-fluid">
@@ -13,6 +13,6 @@ const Nav = props => (
     </div>
   </nav>
 );
-// FROM BRYAN
+// NEED TO DOUBLE CHECK
 
 export default Nav;

@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-// FROM BRYAN
+// NEED TO DOUBLE CHECK
 const Modal = props => (
   <div
     className={`modal ${props.display}`}
@@ -46,6 +46,6 @@ const Modal = props => (
     </div>
   </div>
 );
-// FROM BRYAN
+// NEED TO DOUBLE CHECK
 
 export default Modal;
