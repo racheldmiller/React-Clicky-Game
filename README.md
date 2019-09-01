@@ -16,5 +16,5 @@ React was a little hard to navigate, but I understand how powerful and innovativ
 
 <h2>Learn More About Me!</h2>
 <ul><li><a href="https://github.com/racheldmiller">GitHub</a></li>
-<li><a href="https://linkedin.com/in/rachel-d-miller">LinkedIn</a><</li>
+<li><a href="https://linkedin.com/in/rachel-d-miller">LinkedIn</a></li>
 </ul>
