@@ -10,10 +10,13 @@
   width: 100%;
 }
 
-/* TO-DO: Text should appear white */
+/* Text still isn't appearing white... */
 .nav > .game-brand {
+  text-decoration: none;
+  display: flex;
   color: #ffffff;
   text-align: left;
+  font-weight: 700;
 }
 
 .nav > .stats {
