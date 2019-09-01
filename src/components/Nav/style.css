@@ -2,7 +2,6 @@
 
 .nav {
   background: #5133a4;
-  color: #bc9fff;
   min-height: 70px;
   position: fixed;
   font-size: 28px;
@@ -11,8 +10,12 @@
   width: 100%;
 }
 
-/* TO-DO: Text should be white; should align on the left */
-.navbar a {
+/* TO-DO: Text should appear white */
+.nav > .game-brand {
   color: #ffffff;
   text-align: left;
+}
+
+.nav > .stats {
+  color: #bc9fff;
 }
