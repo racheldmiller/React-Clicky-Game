@@ -1,0 +1,24 @@
+/* TO-DO: EXPAND W/ MEDIA QUERY FUNCTIONALITY */
+
+.nav {
+  background: #5133a4;
+  min-height: 70px;
+  position: fixed;
+  font-size: 28px;
+  text-align: right;
+  padding: 15px 30px;
+  width: 100%;
+}
+
+/* Text still isn't appearing white... */
+.nav > .game-brand {
+  text-decoration: none;
+  display: flex;
+  color: #ffffff;
+  text-align: left;
+  font-weight: 700;
+}
+
+.nav > .stats {
+  color: #bc9fff;
+}

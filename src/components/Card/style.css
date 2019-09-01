@@ -1,0 +1,26 @@
+/* NTS: HOW COME IMAGES ARE BEING STACKED, INSTEAD OF DISPLAYING HORIZONTALLY? */
+
+.card {
+  background: #ffffff;
+  display: inline-block;
+  height: 300x;
+  margin: 5px;
+  width: 400px;
+  border-radius: 3px;
+}
+
+.card > .img-container {
+  height: 100%;
+  background: #ffffff;
+}
+
+/* With a white background, should look like a polaroid pic */
+.card > .img-container > img {
+  width: 98%;
+  margin: 1%;
+}
+
+/* Add a cool effect when user is going to click the image */
+.card:hover > .img-container > img {
+  opacity: 0.7;
+}
