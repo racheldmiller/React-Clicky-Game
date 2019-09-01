@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-// NAVBAR
+// -------------------------------- NAVBAR -------------------------------
 const Nav = props => (
   <nav className="nav">
     {/* Have a landing page link */}

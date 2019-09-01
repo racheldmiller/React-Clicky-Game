@@ -2,8 +2,17 @@
 
 .nav {
   background: #5133a4;
+  color: #bc9fff;
   min-height: 70px;
-  font-size: 18px;
-  padding: 20px 0;
+  position: fixed;
+  font-size: 28px;
+  text-align: right;
+  padding: 15px 30px;
   width: 100%;
+}
+
+/* TO-DO: Text should be white; should align on the left */
+.navbar a {
+  color: #ffffff;
+  text-align: left;
 }

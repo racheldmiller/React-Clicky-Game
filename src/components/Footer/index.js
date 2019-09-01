@@ -1,8 +1,12 @@
 import React from "react";
 import "./style.css";
 
-const Footer = () => (
-  <div className="footer text-center bg-dark">© 2019 CODE BLOODED</div>
-);
+function Footer() {
+  return (
+    <footer className="footer">
+      <div className="bottom">© 2019 CODE BLOODED</div>
+    </footer>
+  );
+}
 
 export default Footer;

@@ -1,20 +1,20 @@
 .card {
-  background: #fff;
-  border-radius: 2px;
-  height: 250px;
-  margin: 1rem;
+  background: #ffffff;
+  border-radius: 3px;
+  height: 300x;
+  margin: 5px;
   position: relative;
-  width: 325px;
-  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  width: 400px;
+  /* box-shadow: 0 3px 6px #999, 0 3px 6px #999; */
   text-align: left;
 }
 
 .card > .img-container {
   height: 100%;
-  overflow: hidden;
-  text-align: center;
-  background: #6caddc;
+  /* overflow: hidden; */
+  /* text-align: center; */
+  background: #2c323c;
 }
 .card > .img-container > img {
-  width: 60%;
+  width: 100%;
 }
