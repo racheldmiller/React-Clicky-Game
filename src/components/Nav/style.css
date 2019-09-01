@@ -1,5 +1,7 @@
-.navbar {
-  background: rgb(245, 205, 205);
+/* TO-DO: EXPAND W/ MEDIA QUERY FUNCTIONALITY */
+
+.nav {
+  background: #5133a4;
   min-height: 70px;
   font-size: 18px;
   padding: 20px 0;

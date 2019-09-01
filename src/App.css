@@ -1,5 +1,7 @@
-/* TO-DO: FIND A PRETTY BACKGROUND IMAGE TO REPLACE THIS */
+/* NTS: FIGURE OUT WHY THIS IMAGE DOESN'T DISPLAY */
 
 body {
-  background-color: #3399ff;
+  background-color: #222222;
+  background-image: url("/public/assets/images/papyrus-dark.png");
+  background-repeat: repeat;
 }

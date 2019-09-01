@@ -1,15 +1,21 @@
 .header {
-  background-color: #ffffff;
-}
-
-h1 {
+  background-color: #15171a;
   text-align: center;
-  font-size: 72px;
-  color: indigo;
+  min-height: 400px;
+  padding: 50px 20px;
+  padding-bottom: 50px;
 }
 
-h2 {
+.header h1 {
+  /* margin: 0; */
+  margin-bottom: 10px;
+  font-size: 70px;
+  text-align: center;
+  color: #4583e0;
+}
+
+.header h2 {
   text-align: center;
   font-size: 36px;
-  color: black;
+  color: #148391;
 }
