@@ -1,0 +1,7 @@
+.navbar {
+  background: rgb(245, 205, 205);
+  min-height: 70px;
+  font-size: 18px;
+  padding: 20px 0;
+  width: 100%;
+}

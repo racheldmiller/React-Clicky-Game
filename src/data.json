@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "image": "./assets/images/spongebob1.jpg",
+    "clicked": false
+  },
+  {
+    "id": 2,
+    "image": "./assets/images/spongebob2.jpg",
+    "clicked": false
+  },
+  {
+    "id": 3,
+    "image": "./assets/images/spongebob3.jpg",
+    "clicked": false
+  },
+  {
+    "id": 4,
+    "image": "./assets/images/spongebob4.jpg",
+    "clicked": false
+  },
+  {
+    "id": 5,
+    "image": "./assets/images/spongebob5.jpg",
+    "clicked": false
+  },
+  {
+    "id": 6,
+    "image": "./assets/images/spongebob6.jpg",
+    "clicked": false
+  },
+  {
+    "id": 7,
+    "image": "./assets/images/spongebob7.jpg",
+    "clicked": false
+  },
+  {
+    "id": 8,
+    "image": "./assets/images/spongebob8.jpg",
+    "clicked": false
+  },
+  {
+    "id": 9,
+    "image": "./assets/images/spongebob9.jpg",
+    "clicked": false
+  }
+]
