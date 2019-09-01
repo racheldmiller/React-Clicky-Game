@@ -1,6 +1,7 @@
 import React from "react";
 
-// const Wrapper = props => <div>{props.children}</div>;
+// ----------------------- CONTAINER ------------------------------
+// This is the container that'll "wrap" everything within it
 
 function Wrapper(props) {
   return <main className="wrapper">{props.children}</main>;

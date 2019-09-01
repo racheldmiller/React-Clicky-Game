@@ -8,6 +8,7 @@ import spongebob6 from "../../public/assets/images/spongebob6.jpg";
 import spongebob7 from "../../public/assets/images/spongebob7.jpg";
 import spongebob8 from "../../public/assets/images/spongebob8.jpg";
 import spongebob9 from "../../public/assets/images/spongebob9.jpg";
+import spongebob10 from "../../public/assets/images/spongebob10.jpg";
 
 // Create an array out of the images imported
 const imgArray = [
@@ -19,7 +20,8 @@ const imgArray = [
   spongebob6,
   spongebob7,
   spongebob8,
-  spongebob9
+  spongebob9,
+  spongebob10
 ];
 
 // Export everything
