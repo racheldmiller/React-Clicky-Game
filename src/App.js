@@ -12,7 +12,7 @@ import Wrapper from "./components/Wrapper/index";
 
 // --------------------- CREATE CLASS (APP) EXTEND { COMPONENT } --------------------
 
-// Set the state
+// SET THE INITIAL STATE
 class App extends Component {
   state = {
     data, // All Spongebobs
@@ -35,28 +35,33 @@ class App extends Component {
             }
           );
           // Shuffle the images
+          // this.state.data.sort(() => Math.floor(Math.random() * (i + 1)));
           this.state.data.sort(() => Math.random() - 0.5);
           return true;
           // If user picks same image 2x, stop the game
-          // Run incorrectGuess function
+          // Run roundOver function
         } else {
-          this.incorrectGuess();
+          this.roundOver();
         }
       }
     });
   };
 
-  incorrectGuess = () => {
+  // FUNCTION TO HANDLE RESULTS OF THE ROUND
+  roundOver = () => {
+    // (MOSTLY) CORRECT GUESSES: "Current score" becomes "highest score"
     if (this.state.currentScore > this.state.highestScore) {
       this.setState({ highestScore: this.state.currentScore }, function() {
-        console.log(this.state.highestScore);
+        console.log("I'm Ready!", this.state.highestScore);
       });
     }
     this.state.data.forEach(card => {
       card.count = 0;
     });
-    // Stop game; send an alert with user's score
-    alert(`Awww, barnacles!\nYour Score: ${this.state.currentScore}`);
+    // INCORRECT GUESS: send an alert with user's score
+    alert(
+      `Awww, barnacles!\nYour Score: ${this.state.currentScore}\nTry again if you're not a super weenie hut junior! `
+    );
     // Current Score goes back to 0
     this.setState({ currentScore: 0 });
     return true;
