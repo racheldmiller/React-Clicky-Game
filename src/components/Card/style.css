@@ -2,11 +2,11 @@
 
 .card {
   background: #ffffff;
+  display: inline-block;
   height: 300x;
   margin: 5px;
   width: 400px;
   border-radius: 3px;
-  display: inline-block;
 }
 
 .card > .img-container {

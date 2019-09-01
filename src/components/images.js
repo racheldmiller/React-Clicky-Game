@@ -1,3 +1,5 @@
+// TO-DO: EDIT SPONGEBOB10 B/C IT'S NOT THE SAME SIZE AS THE REST... SO IT'S A FREEBIE
+
 // Import all Spongebob images
 import spongebob1 from "../../public/assets/images/spongebob1.jpg";
 import spongebob2 from "../../public/assets/images/spongebob2.jpg";
