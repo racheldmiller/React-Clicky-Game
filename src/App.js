@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 // import logo from "./logo.svg";
 
-// Specify Components used
+// ---------------------- ALL COMPONENTS USED ----------------------------
 import Card from "./components/Card/index";
 import data from "../src/data.json";
 import Footer from "../src/components/Footer/index";
@@ -10,24 +10,27 @@ import Header from "./components/Header/index";
 import Nav from "./components/Nav/index";
 import Wrapper from "./components/Wrapper/index";
 
+// --------------------- CREATE CLASS (APP) EXTEND { COMPONENT } --------------------
+
+// set the state
 class App extends Component {
   state = {
-    data,
-    score: 0,
-    highscore: 0
+    data, // All Spongebobs
+    currentScore: 0,
+    highestScore: 0
   };
 
   gameOver = () => {
-    if (this.state.score > this.state.highscore) {
-      this.setState({ highscore: this.state.score }, function() {
-        console.log(this.state.highscore);
+    if (this.state.currentScore > this.state.highestScore) {
+      this.setState({ highestScore: this.state.currentScore }, function() {
+        console.log(this.state.highestScore);
       });
     }
     this.state.data.forEach(card => {
       card.count = 0;
     });
-    alert(`Game Over\nscore: ${this.state.score}`);
-    this.setState({ score: 0 });
+    alert(`Awww, barnacles!\nYour Score: ${this.state.currentScore}`);
+    this.setState({ currentScore: 0 });
     return true;
   };
 
@@ -36,9 +39,12 @@ class App extends Component {
       if (o.id === id) {
         if (data[i].count === 0) {
           data[i].count = data[i].count + 1;
-          this.setState({ score: this.state.score + 1 }, function() {
-            console.log(this.state.score);
-          });
+          this.setState(
+            { currentScore: this.state.currentScore + 1 },
+            function() {
+              console.log(this.state.currentScore);
+            }
+          );
           this.state.data.sort(() => Math.random() - 0.5);
           return true;
         } else {
@@ -50,21 +56,24 @@ class App extends Component {
   //  map over this.state.card and render a card component for each card object
   render() {
     return (
-      <Wrapper>
-        <Nav score={this.state.score} highscore={this.state.highscore}>
-          Clicky Game
-        </Nav>
-        <Header />
-        {this.state.data.map(card => (
-          <Card
-            clickCount={this.clickCount}
-            id={card.id}
-            key={card.id}
-            image={card.image}
-          />
-        ))}
-        <Footer />
-      </Wrapper>
+      <div>
+        <Wrapper>
+          <Nav
+            currentScore={this.state.currentScore}
+            highestScore={this.state.highestScore}
+          ></Nav>
+          <Header />
+          {this.state.data.map(card => (
+            <Card
+              clickCount={this.clickCount}
+              id={card.id}
+              key={card.id}
+              image={card.image}
+            />
+          ))}
+          <Footer />
+        </Wrapper>
+      </div>
     );
   }
 }

@@ -9,11 +9,13 @@ function Nav(props) {
       {/* Bring users back to landing page */}
       <div className="game-brand">
         <a href="/">CLICKY GAME!</a>
+        {/* CLICKY GAME */}
       </div>
 
       {/* Display current score vs. the highest score obtained */}
       <div className="stats">
-        Current Score: {props.score} | Highest Score: {props.highscore}
+        Current Score: {props.currentScore} | Highest Score:
+        {props.highestScore}
       </div>
     </nav>
   );
