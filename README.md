@@ -3,7 +3,8 @@
 <img width="1440" alt="Screen Shot 2019-09-01 at 12 44 20 AM" src="https://user-images.githubusercontent.com/46205109/64073375-c02b6f00-cc51-11e9-93d6-09c6a19cc7e0.png">
 
 <h2>See it for Yourself!</h2>
-<a href="*">Clicky Game: Spongebob Edition</a>
+<a href="https://spongebob-memory-game.herokuapp.com/">Clicky Game: Spongebob Edition</a>
+<br>For some reason, deploying it to github.io renders the readme instead of the app... so I shared it on Heroku instead.
 
 <h2>Overview:</h2>
 The goal of this game is to successfully click on all 10 images only ONCE. If you do, you win! The images are randomized after every click, which makes this game a little more challenging.
