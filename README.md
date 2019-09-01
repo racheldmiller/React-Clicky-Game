@@ -1,6 +1,7 @@
 # React-Clicky-Game
 
 (Note: Ignore the typo in the screenshot. I originally had 9 photos, then added in a 10th one).
+<br>
 <img width="1440" alt="Screen Shot 2019-09-01 at 12 44 20 AM" src="https://user-images.githubusercontent.com/46205109/64073375-c02b6f00-cc51-11e9-93d6-09c6a19cc7e0.png">
 
 <h2>See it for Yourself!</h2>

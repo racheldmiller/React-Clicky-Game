@@ -20,14 +20,15 @@ class App extends Component {
     highestScore: 0
   };
 
+  // SHUFFLE IMAGES
   // FUNCTION TO HANDLE THE CLICKS ON SPONGEBOB IMAGES
   handleClick = id => {
     this.state.data.find((char, i) => {
       if (char.id === id) {
-        // Increase score by 1 everytime a user successfully picks other images
         if (data[i].count === 0) {
           data[i].count = data[i].count + 1;
           // Set the state to reflect the change
+          // Increase score by 1 everytime a user successfully picks other images
           this.setState(
             { currentScore: this.state.currentScore + 1 },
             function() {
