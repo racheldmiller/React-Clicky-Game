@@ -1,4 +1,8 @@
 .wrapper {
-  margin: auto;
   background-color: #4d4b4b;
+  margin: auto;
+  padding-left: 5%;
+  /* padding-right: 5%; */
 }
+
+/* TO-DO: STYLE WRAPPER MORE, MAKE imgArray CENTER */
